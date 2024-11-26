@@ -19,6 +19,11 @@ Regeneration of the navigation data is automatically done whenever you move obje
 * A-Star
 * Theta-Star
 * Lazy-Theta-Star
+* Refs:
+* (Lazy Theta*: Any-Angle Path Planning and Path Length Analysis in 3D)[https://docs.google.com/viewer?url=http%3A%2F%2Fidm-lab.org%2Fbib%2Fabstracts%2Fpapers%2Faaai10b.pdf&pdf=true]
+* (A*算法改进——Any-Angle Path Planning的Theta*算法与Lazy Theta*算法)[https://www.cnblogs.com/yangrouchuan/p/6373285.html]
+* (PATHFINDING IN 3D SPACE -A*, THETA*, LAZY THETA* IN OCTREE STRUCTURE)[https://docs.google.com/viewer?url=https%3A%2F%2Fascane.github.io%2Fprojects%2F07_pathfinding3d%2Freport.pdf&pdf=true]
+* (Theta*: A Simple Any-Angle Algorithm based on A*)[https://news.movel.ai/theta-star]
 
 You'll find more informations about pathfinding below.
 
