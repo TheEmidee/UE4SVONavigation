@@ -670,7 +670,7 @@ void ASVONavigationData::CheckToDiscardSubLevelNavData( const UNavigationSystemB
                  // They will be handled at load-time when running.
                  && ( IsRunningCommandlet() == false ) )
             {
-                UE_LOG( LogNavigation, Verbose, TEXT( "%hs Discarding %s due to it not being part of PersistentLevel." ), ANSI_TO_TCHAR( __FUNCTION__ ), *GetFullNameSafe( this ) );
+                UE_LOG( LogNavigation, Verbose, TEXT( "%s Discarding %s due to it not being part of PersistentLevel." ), ANSI_TO_TCHAR( __FUNCTION__ ), *GetFullNameSafe( this ) );
 
                 // Marking self for deletion
                 CleanUpAndMarkPendingKill();

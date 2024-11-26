@@ -5,6 +5,8 @@
 #include "SVONavigationTypes.h"
 #include "SVOVersion.h"
 
+#include "Engine/OverlapResult.h"
+
 #include <ThirdParty/libmorton/morton.h>
 
 namespace

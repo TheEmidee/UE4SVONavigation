@@ -1,6 +1,6 @@
 #include "SVONavigationEditor/SVONavigationEditor.h"
 
-#include <PropertyEditor/Public/PropertyEditorModule.h>
+#include <PropertyEditorModule.h>
 
 IMPLEMENT_GAME_MODULE(FSVONavigationEditorModule, SVONavigationEditor);
 

@@ -3,6 +3,7 @@
 #include "SVONavigationData.h"
 #include "PathFinding/SVOPathFinder.h"
 #include "PathFinding/SVOPathFindingAlgorithm.h"
+#include "NavFilters/NavigationQueryFilter.h"
 
 #include <Components/SphereComponent.h>
 #include <Engine/Canvas.h>
