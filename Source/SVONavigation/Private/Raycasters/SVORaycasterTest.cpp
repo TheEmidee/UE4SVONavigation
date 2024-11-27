@@ -162,7 +162,7 @@ FPrimitiveSceneProxy * USVORayCasterRenderingComponent::CreateSceneProxy()
 
 FBoxSphereBounds USVORayCasterRenderingComponent::CalcBounds( const FTransform & local_to_world ) const
 {
-    const FBoxSphereBounds result;
+    const FBoxSphereBounds result = Super::CalcBounds( local_to_world );
 
     if ( const auto * owner = GetRayCasterTest() )
     {
